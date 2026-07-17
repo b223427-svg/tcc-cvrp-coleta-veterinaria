@@ -1,2 +1,13 @@
-# tcc-cvrp-coleta-veterinaria
-Códigos desenvolvidos no trabalho de conclusão de curso da aluna Beatriz Ducatti de Almeida para o curso de Bacharel em Sistemas de Informação da UNICAMP
+# Algoritmo de Roteirização com Heurísticas Construtivas
+TCC — Sistemas de Informação, FT/UNICAMP (2026)
+Beatriz Ducatti de Almeida
+
+## Estrutura
+- `guloso.py` — Algoritmo Guloso Puro
+- `cluster_guloso.py` — Algoritmo Cluster + Guloso
+- `instancias/` — 24 instâncias .vrp geradas pelo VRPBench
+
+## Como executar
+python guloso.py instancias/RioClaroMoto_100_0.vrp
+
+Requisitos: Python 3.14 (sem dependências externas)
